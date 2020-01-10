@@ -1,0 +1,68 @@
+.header-in{
+    background: rgb(0, 62, 124);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.menu nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.img-logo{
+    width: 30%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.info{
+    font-size: 1rem;
+    color: black;
+    height: 50vh;
+}
+
+h2{
+    color: red;
+}
+
+.footer-in{
+    font-size: 1rem;
+    color: white;
+    border: solid black 1px;
+}
+
+.found{
+    background: rgb(223, 235, 2);
+}
+
+/* table styling */
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+table, th{
+    border: solid 2px;
+}
+
+#pet-table tr:nth-child(even){
+    background-color: lightblue;
+}
+
+#pet-table tr:nth-child(odd){
+    background-color: lightyellow;
+}
+
+#pet-table th{
+    background-color: lightgray;
+}
